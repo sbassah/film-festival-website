@@ -1,0 +1,7 @@
+* {
+    outline: 1px dotted red;
+}
+
+footer{
+    min-height: 150px;
+}
