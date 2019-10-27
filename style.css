@@ -1,7 +1,133 @@
-* {
-    outline: 1px dotted red;
+body{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
-
+.header{
+    background: #04a3dd;  
+}
+.header a{
+    color: #ffffff;
+}
+nav a:hover{
+    color: #f17c7c;
+}
+.parallex {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("images/banner.jpg");
+}
+.banner-content{
+   background-color: #5e5e6085;
+}
+.parallex h1 {
+    color:#ffffff;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+.parallex h3 {
+    color:#ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.parallex p {
+    font-size: 30px;
+    color:#ffffff;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+}
+.card-img-top{
+    min-height: 334px;
+    max-height: 334px;
+}
+.card-body{
+    color:#5e5e60;
+}
+#registration{
+    background-image: linear-gradient(45deg, #04a3dd 37.50%, #5e5e60 37.50%, #5e5e60 50%, #04a3dd 50%, #04a3dd 87.50%, #5e5e60 87.50%, #5e5e60 100%);
+    background-size: 5.66px 5.66px;
+    color: #ffffff;
+}
+.register-form{
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin:30px auto;
+    padding: 10px; 
+}
+.register-form label{
+    color: #000000;
+}
+.register-form  h3{
+    color: #000000;
+    font-size: 20px;
+}
+#news figure img{
+    width:300px;
+    padding: 0 15px 0 0;
+    float: left;
+}
+.blog .carousel-indicators li {
+    background: #04a3dd;
+    border-radius: 50%;
+    width: 8px;
+    height: 1px;
+}
+.blog .carousel-indicators {
+    left: 0;
+    top: -40px;
+    position: unset;
+}
+  
+  
+.item-box-blog {
+    border: 1px solid #dadada;
+    text-align: center;
+    z-index: 4;
+    padding: 20px;
+}
+  
+.item-box-blog-image {
+    position: relative;
+}
+.item-box-blog-date {
+    position: absolute;
+    z-index: 5;
+    padding: 4px 20px;
+    top: -20px;
+    right: 8px;
+    background-color: #04a3dd;
+}
+.item-box-blog-date span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 1.2;
+  }
+.item-box-blog-date span.mon {
+    font-size: 18px;
+  }
+.item-box-blog-date span.day {
+    font-size: 16px;
+  }
+.item-heading-blog h5 {
+    margin: 0;
+    line-height: 1;
+    text-decoration:none;
+    transition: color 0.3s;
+  }
+.item-box-blog-body {
+    text-align: justify;
+    padding: 10px;
+  }
 footer{
     min-height: 150px;
+    background-color: #5e5e60;
+    color:#ffffff;
+    padding: 40px;
 }
+
